@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Outfit:wght@100;300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+.home {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)) ,url("../../Assets/Background.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--color-white);
+    position: relative;
+}
+
+.home .text__content {    
+    position: absolute;
+    left: 20%;
+    top: 30%;    
+}
+
+
+.home .text__content::before {
+    content: "";
+    position: absolute;
+    left: -2rem;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: var(--color-primary);
+}
+
+.home .text__content .small {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+}
+
+.home .text__content .our-slogan {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 1.7;
+}
+

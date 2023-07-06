@@ -1,0 +1,60 @@
+.contact {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url("../../Assets/Background.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--color-white);
+    position: relative;
+    height: 70vh;
+    
+}
+.contact-form {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    /* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: transparent;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--color-primary);
+}
