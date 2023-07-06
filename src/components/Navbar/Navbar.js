@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        Image<span>Gallary</span>
+        Image<span>Gallery</span>
       </div>
       <div className="navigation">
         <ul className={showLinks ? "links show-links" : "links"}>
